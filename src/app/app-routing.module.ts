@@ -11,7 +11,32 @@ import { ContactComponent } from './contact/contact.component';
 
 
 
-const routes: Routes = [];
+const routes: Routes = [
+
+{
+  //www.yazilimdeposu.com/
+  path:"",
+  component:MainLayoutComponent,
+  children:            //children keywordden itibaren yazılan componentler MainLayoutComponent içerisinde gözükeceği anlamına geliyor
+  [
+    {
+      path:"",
+      component:HomeComponent
+    },
+      //www.yazilimdeposu.com/hakkimizda
+    {
+       path:"hakkimizda",
+       component:AboutMeComponent
+    },
+
+
+  ]
+
+}
+
+
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

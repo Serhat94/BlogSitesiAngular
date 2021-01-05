@@ -17,7 +17,7 @@ const routes: Routes = [
   //www.yazilimdeposu.com/
   path:"",
   component:MainLayoutComponent,
-  children:            //children keywordden itibaren yazılan componentler MainLayoutComponent içerisinde gözükeceği anlamına geliyor
+  children:  //children keywordden itibaren yazılan componentler MainLayoutComponent içerisinde gözükeceği anlamına geliyor
   [
     {
       path:"",
@@ -37,9 +37,14 @@ const routes: Routes = [
 
   ]
 
+},
+{
+   //www.yazilimdeposu.com/admin
+
+   path:"admin",
+   component:AdminLayoutComponent
+
 }
-
-
 
 ];
 

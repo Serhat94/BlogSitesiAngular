@@ -28,9 +28,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -92,9 +98,11 @@
             ],
             "styles": [
               "src/styles.css"
+
             ],
             "scripts": []
           }
+
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
@@ -124,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "blog"
+  "defaultProject": "blog",
+  "cli": {
+    "analytics": "26dd745b-020f-44c9-bb03-6abe950282e3"
+  }
 }

@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MainLayoutComponent } from './layout/main-layout/main-layout.component';
 import { AdminLayoutComponent } from './layout/admin-layout/admin-layout.component';
 import { MainNavComponent } from './nav/main-nav/main-nav.component';
+import { AdminNavComponent } from './nav/admin-nav/admin-nav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MainNavComponent } from './nav/main-nav/main-nav.component';
     ContactComponent,
     MainLayoutComponent,
     AdminLayoutComponent,
-    MainNavComponent
+    MainNavComponent,
+    AdminNavComponent
   ],
   imports: [
     BrowserModule,

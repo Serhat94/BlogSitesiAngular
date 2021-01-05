@@ -28,6 +28,11 @@ const routes: Routes = [
        path:"hakkimizda",
        component:AboutMeComponent
     },
+    {
+       //www.yazilimdeposu.com/iletisim
+       path:"iletisim",
+       component:ContactComponent
+    }
 
 
   ]
